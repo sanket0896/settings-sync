@@ -1,0 +1,18 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Sanket Mishra
+	email = sanket@spotdraft.com
+[alias]
+    cm = commit -m \"\"
+    cb = branch --show-current
+    puo = push -u origin
+    cob = checkout -b
+    co = checkout
+    cpx = cherry-pick -x
+    po = push origin
+    rb = rebase
+    rbi = rebase -i
+    pufl = push --force-with-lease
+    del = branch -D
+[core]
+    editor = code --wait
